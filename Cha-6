@@ -1,0 +1,12 @@
+input_string = str(raw_input("Please enter the input string that needs to be checked: "))
+
+#word = str(input_string)
+
+rev = input_string[ : : -1]
+
+print(rev)
+
+if input_string == rev:
+	print("The given word is palendrome")
+else:
+	print("the given word is not palendrome")

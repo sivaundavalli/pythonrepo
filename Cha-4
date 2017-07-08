@@ -1,0 +1,13 @@
+x = int(input("Please enter a number to divide:  "))
+
+y = list(range(1,x+1))
+
+a = []
+
+
+for z in y:
+	if x % z == 0:
+		a.append(z)
+
+
+print(a)
